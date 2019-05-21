@@ -24,6 +24,8 @@
 		951A334D2293D65A00FE95D7 /* JSONDecoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A33472293D65A00FE95D7 /* JSONDecoderExtension.swift */; };
 		951A334E2293D65A00FE95D7 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A33482293D65A00FE95D7 /* DataExtension.swift */; };
 		956F7AD422941AA7000E7CE2 /* CityBikURLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F7AD122941A08000E7CE2 /* CityBikURLTest.swift */; };
+		956F7AD8229421C6000E7CE2 /* CityBikesQueryItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F7AD522942192000E7CE2 /* CityBikesQueryItemTest.swift */; };
+		956F7ADD229423AC000E7CE2 /* CityBikNetworkingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F7AD92294234E000E7CE2 /* CityBikNetworkingTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		951A33472293D65A00FE95D7 /* JSONDecoderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecoderExtension.swift; sourceTree = "<group>"; };
 		951A33482293D65A00FE95D7 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 		956F7AD122941A08000E7CE2 /* CityBikURLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CityBikURLTest.swift; path = CityBik_esTests/CityBikURLTest.swift; sourceTree = SOURCE_ROOT; };
+		956F7AD522942192000E7CE2 /* CityBikesQueryItemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CityBikesQueryItemTest.swift; path = CityBik_esTests/CityBikesQueryItemTest.swift; sourceTree = SOURCE_ROOT; };
+		956F7AD92294234E000E7CE2 /* CityBikNetworkingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CityBikNetworkingTest.swift; path = CityBik_esTests/CityBikNetworkingTest.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 			children = (
 				9517FE56220368D900ED134D /* CityBikesJsonParserTest.swift */,
 				956F7AD122941A08000E7CE2 /* CityBikURLTest.swift */,
+				956F7AD522942192000E7CE2 /* CityBikesQueryItemTest.swift */,
+				956F7AD92294234E000E7CE2 /* CityBikNetworkingTest.swift */,
 				9517FE58220368D900ED134D /* Info.plist */,
 			);
 			path = CityBIk_esTests;
@@ -337,7 +343,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				951A333B2293D12D00FE95D7 /* CityBikesJsonParserTest.swift in Sources */,
+				956F7ADD229423AC000E7CE2 /* CityBikNetworkingTest.swift in Sources */,
 				956F7AD422941AA7000E7CE2 /* CityBikURLTest.swift in Sources */,
+				956F7AD8229421C6000E7CE2 /* CityBikesQueryItemTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

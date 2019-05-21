@@ -84,35 +84,6 @@ class NetworkManager: ResponseDecodable {
     }
     
     @discardableResult
-    func request(_ url: URL?, then handler: @escaping (Result<Data?>) -> Void ) -> Token? {
-        
-        guard let url = url else {
-            handler(.error(NetworkError.invalidURL))
-            return nil
-        }
-        
-        return session.data(url, completion: { data, response, error in
-            
-            if let error = error {
-                handler(.error(error))
-//            } else if let response = response as? HTTPURLResponse, response.statusCode > 400 {
-//                if let data = data {
-//                    do {
-//                        let jsonError: CityBikError = try data.decode()
-//                        handler(.error(jsonError))
-//                    } catch {
-//                        handler(.error(error))
-//                    }
-//                }
-            } else {
-                handler(.success(data))
-            }
-            
-        })
-        
-    }
-    
-    @discardableResult
     func request<T: Decodable>(_ url: URL?, then handler: @escaping (Result<T>, URLResponse?) -> Void ) -> Token? {
         
         guard let url = url else {
