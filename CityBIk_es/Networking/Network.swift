@@ -96,18 +96,7 @@ class NetworkManager: ResponseDecodable {
             
             if let error = error {
                 handler(.error(error), response)
-            }
-//            } else if let response = response as? HTTPURLResponse, response.statusCode > 400 {
-//                if let data = data {
-//                    do {
-//                        let jsonError: CityBikError = try data.decode()
-//                        handler(.error(jsonError), response)
-//                    } catch {
-//                        handler(.error(error), response)
-//                    }
-//                }
-//                return
-             else if let data = data {
+            } else if let data = data {
                 do {
                     let json: T = try data.decode()
                     handler(.success(json), response)
