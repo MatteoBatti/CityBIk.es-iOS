@@ -1,13 +1,13 @@
 //
 //
-//  CityBik.es
+//  CityBik_es
 //  Copyright (c) 2019 Matteo Battistini
 //  Licensed under the MIT license, see LICENSE file
 //
 
 import XCTest
 
-class CityBIk_esUITests: XCTestCase {
+class CityBik_esUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

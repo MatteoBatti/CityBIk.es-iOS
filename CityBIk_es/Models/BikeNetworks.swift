@@ -1,6 +1,6 @@
 //
 //
-//  CityBik.es
+//  CityBik_es
 //  Copyright (c) 2019 Matteo Battistini
 //  Licensed under the MIT license, see LICENSE file
 //
@@ -74,10 +74,12 @@ struct Company: Decodable {
 }
 
 struct BikeStation: Decodable {
-    let empty_slots: UInt64?
-    let free_bikes: UInt64?
+    
+    let emptySlots: UInt64?
+    let freeBikes: UInt64?
     let id: String?
-    // could be a separate object
+    
+    //TODO: separated object Coordinate {lat, lon}
     let latitude: Float64
     let longitude: Float64
     

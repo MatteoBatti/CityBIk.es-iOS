@@ -12,45 +12,61 @@
 		9517FE47220368D800ED134D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9517FE45220368D800ED134D /* Main.storyboard */; };
 		9517FE49220368D900ED134D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9517FE48220368D900ED134D /* Assets.xcassets */; };
 		9517FE4C220368D900ED134D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9517FE4A220368D900ED134D /* LaunchScreen.storyboard */; };
-		9517FE57220368D900ED134D /* ParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517FE56220368D900ED134D /* ParserTest.swift */; };
-		9517FE62220368D900ED134D /* CityBIk_esUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517FE61220368D900ED134D /* CityBIk_esUITests.swift */; };
+		9517FE62220368D900ED134D /* CityBik_esUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517FE61220368D900ED134D /* CityBik_esUITests.swift */; };
 		9517FE712203690E00ED134D /* BikeNetworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517FE702203690E00ED134D /* BikeNetworks.swift */; };
-		9517FE7422036E9300ED134D /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517FE7322036E9300ED134D /* DataExtension.swift */; };
+		951A333B2293D12D00FE95D7 /* CityBikesJsonParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517FE56220368D900ED134D /* CityBikesJsonParserTest.swift */; };
+		951A333F2293D34900FE95D7 /* CityBikURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A333D2293D34900FE95D7 /* CityBikURL.swift */; };
+		951A33402293D34900FE95D7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A333E2293D34900FE95D7 /* Network.swift */; };
+		951A33492293D65A00FE95D7 /* URLQueryItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A33432293D65A00FE95D7 /* URLQueryItemExtension.swift */; };
+		951A334A2293D65A00FE95D7 /* NSErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A33442293D65A00FE95D7 /* NSErrorExtension.swift */; };
+		951A334B2293D65A00FE95D7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A33452293D65A00FE95D7 /* UIViewControllerExtension.swift */; };
+		951A334C2293D65A00FE95D7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A33462293D65A00FE95D7 /* UIViewExtension.swift */; };
+		951A334D2293D65A00FE95D7 /* JSONDecoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A33472293D65A00FE95D7 /* JSONDecoderExtension.swift */; };
+		951A334E2293D65A00FE95D7 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951A33482293D65A00FE95D7 /* DataExtension.swift */; };
+		956F7AD422941AA7000E7CE2 /* CityBikURLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F7AD122941A08000E7CE2 /* CityBikURLTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9517FE53220368D900ED134D /* PBXContainerItemProxy */ = {
+		951A334F2293DBF500FE95D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9517FE36220368D800ED134D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9517FE3D220368D800ED134D;
-			remoteInfo = CityBIk.es;
+			remoteInfo = CityBIk_es;
 		};
-		9517FE75220432F900ED134D /* PBXContainerItemProxy */ = {
+		951A33512293DBFC00FE95D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9517FE36220368D800ED134D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9517FE3D220368D800ED134D;
-			remoteInfo = CityBIk.es;
+			remoteInfo = CityBIk_es;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9517FE3E220368D800ED134D /* CityBIk.es.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityBIk.es.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9517FE3E220368D800ED134D /* CityBik_es.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityBik_es.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9517FE41220368D800ED134D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9517FE43220368D800ED134D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9517FE46220368D800ED134D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9517FE48220368D900ED134D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9517FE4B220368D900ED134D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9517FE4D220368D900ED134D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9517FE52220368D900ED134D /* CityBIk.esTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityBIk.esTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9517FE56220368D900ED134D /* ParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserTest.swift; sourceTree = "<group>"; };
+		9517FE52220368D900ED134D /* CityBik_esTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityBik_esTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9517FE56220368D900ED134D /* CityBikesJsonParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBikesJsonParserTest.swift; sourceTree = "<group>"; };
 		9517FE58220368D900ED134D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9517FE5D220368D900ED134D /* CityBIk.esUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityBIk.esUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9517FE61220368D900ED134D /* CityBIk_esUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBIk_esUITests.swift; sourceTree = "<group>"; };
+		9517FE5D220368D900ED134D /* CityBik_esUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityBik_esUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9517FE61220368D900ED134D /* CityBik_esUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBik_esUITests.swift; sourceTree = "<group>"; };
 		9517FE63220368D900ED134D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9517FE702203690E00ED134D /* BikeNetworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeNetworks.swift; sourceTree = "<group>"; };
-		9517FE7322036E9300ED134D /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		951A333D2293D34900FE95D7 /* CityBikURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityBikURL.swift; sourceTree = "<group>"; };
+		951A333E2293D34900FE95D7 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		951A33432293D65A00FE95D7 /* URLQueryItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLQueryItemExtension.swift; sourceTree = "<group>"; };
+		951A33442293D65A00FE95D7 /* NSErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorExtension.swift; sourceTree = "<group>"; };
+		951A33452293D65A00FE95D7 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		951A33462293D65A00FE95D7 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		951A33472293D65A00FE95D7 /* JSONDecoderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecoderExtension.swift; sourceTree = "<group>"; };
+		951A33482293D65A00FE95D7 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		956F7AD122941A08000E7CE2 /* CityBikURLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CityBikURLTest.swift; path = CityBik_esTests/CityBikURLTest.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +97,9 @@
 		9517FE35220368D800ED134D = {
 			isa = PBXGroup;
 			children = (
-				9517FE40220368D800ED134D /* CityBIk.es */,
-				9517FE55220368D900ED134D /* CityBIk.esTests */,
-				9517FE60220368D900ED134D /* CityBIk.esUITests */,
+				9517FE40220368D800ED134D /* CityBIk_es */,
+				9517FE55220368D900ED134D /* CityBIk_esTests */,
+				9517FE60220368D900ED134D /* CityBIk_esUITests */,
 				9517FE3F220368D800ED134D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,17 +107,18 @@
 		9517FE3F220368D800ED134D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9517FE3E220368D800ED134D /* CityBIk.es.app */,
-				9517FE52220368D900ED134D /* CityBIk.esTests.xctest */,
-				9517FE5D220368D900ED134D /* CityBIk.esUITests.xctest */,
+				9517FE3E220368D800ED134D /* CityBik_es.app */,
+				9517FE52220368D900ED134D /* CityBik_esTests.xctest */,
+				9517FE5D220368D900ED134D /* CityBik_esUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9517FE40220368D800ED134D /* CityBIk.es */ = {
+		9517FE40220368D800ED134D /* CityBIk_es */ = {
 			isa = PBXGroup;
 			children = (
-				9517FE7222036E8100ED134D /* Extensions */,
+				951A33412293D65A00FE95D7 /* Utils */,
+				951A333C2293D34900FE95D7 /* Networking */,
 				9517FE6F220368E900ED134D /* Models */,
 				9517FE41220368D800ED134D /* AppDelegate.swift */,
 				9517FE43220368D800ED134D /* ViewController.swift */,
@@ -110,25 +127,26 @@
 				9517FE4A220368D900ED134D /* LaunchScreen.storyboard */,
 				9517FE4D220368D900ED134D /* Info.plist */,
 			);
-			path = CityBIk.es;
+			path = CityBIk_es;
 			sourceTree = "<group>";
 		};
-		9517FE55220368D900ED134D /* CityBIk.esTests */ = {
+		9517FE55220368D900ED134D /* CityBIk_esTests */ = {
 			isa = PBXGroup;
 			children = (
-				9517FE56220368D900ED134D /* ParserTest.swift */,
+				9517FE56220368D900ED134D /* CityBikesJsonParserTest.swift */,
+				956F7AD122941A08000E7CE2 /* CityBikURLTest.swift */,
 				9517FE58220368D900ED134D /* Info.plist */,
 			);
-			path = CityBIk.esTests;
+			path = CityBIk_esTests;
 			sourceTree = "<group>";
 		};
-		9517FE60220368D900ED134D /* CityBIk.esUITests */ = {
+		9517FE60220368D900ED134D /* CityBIk_esUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9517FE61220368D900ED134D /* CityBIk_esUITests.swift */,
+				9517FE61220368D900ED134D /* CityBik_esUITests.swift */,
 				9517FE63220368D900ED134D /* Info.plist */,
 			);
-			path = CityBIk.esUITests;
+			path = CityBIk_esUITests;
 			sourceTree = "<group>";
 		};
 		9517FE6F220368E900ED134D /* Models */ = {
@@ -139,10 +157,32 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		9517FE7222036E8100ED134D /* Extensions */ = {
+		951A333C2293D34900FE95D7 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				9517FE7322036E9300ED134D /* DataExtension.swift */,
+				951A333D2293D34900FE95D7 /* CityBikURL.swift */,
+				951A333E2293D34900FE95D7 /* Network.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		951A33412293D65A00FE95D7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				951A33422293D65A00FE95D7 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		951A33422293D65A00FE95D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				951A33432293D65A00FE95D7 /* URLQueryItemExtension.swift */,
+				951A33442293D65A00FE95D7 /* NSErrorExtension.swift */,
+				951A33452293D65A00FE95D7 /* UIViewControllerExtension.swift */,
+				951A33462293D65A00FE95D7 /* UIViewExtension.swift */,
+				951A33472293D65A00FE95D7 /* JSONDecoderExtension.swift */,
+				951A33482293D65A00FE95D7 /* DataExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -150,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9517FE3D220368D800ED134D /* CityBIk.es */ = {
+		9517FE3D220368D800ED134D /* CityBik_es */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9517FE66220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBIk.es" */;
+			buildConfigurationList = 9517FE66220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBik_es" */;
 			buildPhases = (
 				9517FE3A220368D800ED134D /* Sources */,
 				9517FE3B220368D800ED134D /* Frameworks */,
@@ -162,14 +202,14 @@
 			);
 			dependencies = (
 			);
-			name = CityBIk.es;
+			name = CityBik_es;
 			productName = CityBIk.es;
-			productReference = 9517FE3E220368D800ED134D /* CityBIk.es.app */;
+			productReference = 9517FE3E220368D800ED134D /* CityBik_es.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9517FE51220368D900ED134D /* CityBIk.esTests */ = {
+		9517FE51220368D900ED134D /* CityBik_esTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9517FE69220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBIk.esTests" */;
+			buildConfigurationList = 9517FE69220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBik_esTests" */;
 			buildPhases = (
 				9517FE4E220368D900ED134D /* Sources */,
 				9517FE4F220368D900ED134D /* Frameworks */,
@@ -178,16 +218,16 @@
 			buildRules = (
 			);
 			dependencies = (
-				9517FE54220368D900ED134D /* PBXTargetDependency */,
+				951A33502293DBF500FE95D7 /* PBXTargetDependency */,
 			);
-			name = CityBIk.esTests;
+			name = CityBik_esTests;
 			productName = CityBIk.esTests;
-			productReference = 9517FE52220368D900ED134D /* CityBIk.esTests.xctest */;
+			productReference = 9517FE52220368D900ED134D /* CityBik_esTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9517FE5C220368D900ED134D /* CityBIk.esUITests */ = {
+		9517FE5C220368D900ED134D /* CityBik_esUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9517FE6C220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBIk.esUITests" */;
+			buildConfigurationList = 9517FE6C220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBik_esUITests" */;
 			buildPhases = (
 				9517FE59220368D900ED134D /* Sources */,
 				9517FE5A220368D900ED134D /* Frameworks */,
@@ -196,11 +236,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				9517FE76220432F900ED134D /* PBXTargetDependency */,
+				951A33522293DBFC00FE95D7 /* PBXTargetDependency */,
 			);
-			name = CityBIk.esUITests;
+			name = CityBik_esUITests;
 			productName = CityBIk.esUITests;
-			productReference = 9517FE5D220368D900ED134D /* CityBIk.esUITests.xctest */;
+			productReference = 9517FE5D220368D900ED134D /* CityBik_esUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9517FE39220368D800ED134D /* Build configuration list for PBXProject "CityBIk.es" */;
+			buildConfigurationList = 9517FE39220368D800ED134D /* Build configuration list for PBXProject "CityBik_es" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,9 +279,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9517FE3D220368D800ED134D /* CityBIk.es */,
-				9517FE51220368D900ED134D /* CityBIk.esTests */,
-				9517FE5C220368D900ED134D /* CityBIk.esUITests */,
+				9517FE3D220368D800ED134D /* CityBik_es */,
+				9517FE51220368D900ED134D /* CityBik_esTests */,
+				9517FE5C220368D900ED134D /* CityBik_esUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,8 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951A334C2293D65A00FE95D7 /* UIViewExtension.swift in Sources */,
+				951A334E2293D65A00FE95D7 /* DataExtension.swift in Sources */,
 				9517FE44220368D800ED134D /* ViewController.swift in Sources */,
-				9517FE7422036E9300ED134D /* DataExtension.swift in Sources */,
+				951A334A2293D65A00FE95D7 /* NSErrorExtension.swift in Sources */,
+				951A334B2293D65A00FE95D7 /* UIViewControllerExtension.swift in Sources */,
+				951A333F2293D34900FE95D7 /* CityBikURL.swift in Sources */,
+				951A33402293D34900FE95D7 /* Network.swift in Sources */,
+				951A33492293D65A00FE95D7 /* URLQueryItemExtension.swift in Sources */,
+				951A334D2293D65A00FE95D7 /* JSONDecoderExtension.swift in Sources */,
 				9517FE712203690E00ED134D /* BikeNetworks.swift in Sources */,
 				9517FE42220368D800ED134D /* AppDelegate.swift in Sources */,
 			);
@@ -289,7 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9517FE57220368D900ED134D /* ParserTest.swift in Sources */,
+				951A333B2293D12D00FE95D7 /* CityBikesJsonParserTest.swift in Sources */,
+				956F7AD422941AA7000E7CE2 /* CityBikURLTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,22 +345,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9517FE62220368D900ED134D /* CityBIk_esUITests.swift in Sources */,
+				9517FE62220368D900ED134D /* CityBik_esUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9517FE54220368D900ED134D /* PBXTargetDependency */ = {
+		951A33502293DBF500FE95D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9517FE3D220368D800ED134D /* CityBIk.es */;
-			targetProxy = 9517FE53220368D900ED134D /* PBXContainerItemProxy */;
+			target = 9517FE3D220368D800ED134D /* CityBik_es */;
+			targetProxy = 951A334F2293DBF500FE95D7 /* PBXContainerItemProxy */;
 		};
-		9517FE76220432F900ED134D /* PBXTargetDependency */ = {
+		951A33522293DBFC00FE95D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9517FE3D220368D800ED134D /* CityBIk.es */;
-			targetProxy = 9517FE75220432F900ED134D /* PBXContainerItemProxy */;
+			target = 9517FE3D220368D800ED134D /* CityBik_es */;
+			targetProxy = 951A33512293DBFC00FE95D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -442,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -456,14 +504,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CityBIk.es/Info.plist;
+				DEVELOPMENT_TEAM = S96H6249Z5;
+				INFOPLIST_FILE = CityBik_es/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "funambol.CityBIk-es";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matteo.battistini.CityBik-es";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -473,14 +524,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CityBIk.es/Info.plist;
+				DEVELOPMENT_TEAM = S96H6249Z5;
+				INFOPLIST_FILE = CityBik_es/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "funambol.CityBIk-es";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matteo.battistini.CityBik-es";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,17 +546,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CityBIk.esTests/Info.plist;
+				DEVELOPMENT_TEAM = S96H6249Z5;
+				INFOPLIST_FILE = CityBik_esTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "funambol.CityBIk-esTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matteo.battistini.CityBik-esTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityBIk.es.app/CityBIk.es";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityBik_es.app/CityBik_es";
 			};
 			name = Debug;
 		};
@@ -512,17 +567,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CityBIk.esTests/Info.plist;
+				DEVELOPMENT_TEAM = S96H6249Z5;
+				INFOPLIST_FILE = CityBik_esTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "funambol.CityBIk-esTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matteo.battistini.CityBik-esTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityBIk.es.app/CityBIk.es";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityBik_es.app/CityBik_es";
 			};
 			name = Release;
 		};
@@ -531,17 +587,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CityBIk.esUITests/Info.plist;
+				DEVELOPMENT_TEAM = S96H6249Z5;
+				INFOPLIST_FILE = CityBik_esUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "funambol.CityBIk-esUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matteo.battistini.CityBik-esUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CityBIk.es;
+				TEST_TARGET_NAME = CityBik_es;
 			};
 			name = Debug;
 		};
@@ -550,24 +607,25 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CityBIk.esUITests/Info.plist;
+				DEVELOPMENT_TEAM = S96H6249Z5;
+				INFOPLIST_FILE = CityBik_esUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "funambol.CityBIk-esUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matteo.battistini.CityBik-esUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CityBIk.es;
+				TEST_TARGET_NAME = CityBik_es;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9517FE39220368D800ED134D /* Build configuration list for PBXProject "CityBIk.es" */ = {
+		9517FE39220368D800ED134D /* Build configuration list for PBXProject "CityBik_es" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9517FE64220368D900ED134D /* Debug */,
@@ -576,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9517FE66220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBIk.es" */ = {
+		9517FE66220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBik_es" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9517FE67220368D900ED134D /* Debug */,
@@ -585,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9517FE69220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBIk.esTests" */ = {
+		9517FE69220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBik_esTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9517FE6A220368D900ED134D /* Debug */,
@@ -594,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9517FE6C220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBIk.esUITests" */ = {
+		9517FE6C220368D900ED134D /* Build configuration list for PBXNativeTarget "CityBik_esUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9517FE6D220368D900ED134D /* Debug */,

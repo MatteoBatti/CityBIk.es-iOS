@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9517FE3D220368D800ED134D"
-               BuildableName = "CityBIk.es.app"
-               BlueprintName = "CityBIk.es"
-               ReferencedContainer = "container:CityBIk.es.xcodeproj">
+               BuildableName = "CityBik_es.app"
+               BlueprintName = "CityBik_es"
+               ReferencedContainer = "container:CityBik_es.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9517FE51220368D900ED134D"
-               BuildableName = "CityBIk.esTests.xctest"
-               BlueprintName = "CityBIk.esTests"
-               ReferencedContainer = "container:CityBIk.es.xcodeproj">
+               BuildableName = "CityBik_esTests.xctest"
+               BlueprintName = "CityBik_esTests"
+               ReferencedContainer = "container:CityBik_es.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9517FE5C220368D900ED134D"
-               BuildableName = "CityBIk.esUITests.xctest"
-               BlueprintName = "CityBIk.esUITests"
-               ReferencedContainer = "container:CityBIk.es.xcodeproj">
+               BuildableName = "CityBik_esUITests.xctest"
+               BlueprintName = "CityBik_esUITests"
+               ReferencedContainer = "container:CityBik_es.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9517FE3D220368D800ED134D"
-            BuildableName = "CityBIk.es.app"
-            BlueprintName = "CityBIk.es"
-            ReferencedContainer = "container:CityBIk.es.xcodeproj">
+            BuildableName = "CityBik_es.app"
+            BlueprintName = "CityBik_es"
+            ReferencedContainer = "container:CityBik_es.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9517FE3D220368D800ED134D"
-            BuildableName = "CityBIk.es.app"
-            BlueprintName = "CityBIk.es"
-            ReferencedContainer = "container:CityBIk.es.xcodeproj">
+            BuildableName = "CityBik_es.app"
+            BlueprintName = "CityBik_es"
+            ReferencedContainer = "container:CityBik_es.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9517FE3D220368D800ED134D"
-            BuildableName = "CityBIk.es.app"
-            BlueprintName = "CityBIk.es"
-            ReferencedContainer = "container:CityBIk.es.xcodeproj">
+            BuildableName = "CityBik_es.app"
+            BlueprintName = "CityBik_es"
+            ReferencedContainer = "container:CityBik_es.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

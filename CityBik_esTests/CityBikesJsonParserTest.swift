@@ -1,7 +1,7 @@
 
 
 import XCTest
-@testable import CityBIk_es
+@testable import CityBik_es
 
 class CityBikesJsonParserTest: XCTestCase {
     
@@ -197,8 +197,8 @@ class CityBikesJsonParserTest: XCTestCase {
         XCTAssertEqual(company?.info.location?.longitude, 11.0814)
         XCTAssertEqual(company?.info.name, "NorisBike")
         
-        XCTAssertEqual(company?.stations.first?.empty_slots, 13)
-        XCTAssertEqual(company?.stations.first?.free_bikes, 4)
+        XCTAssertEqual(company?.stations.first?.emptySlots, 13)
+        XCTAssertEqual(company?.stations.first?.freeBikes, 4)
         XCTAssertEqual(company?.stations.first?.name, "Ohm-Hochschule (Wassertorstr.)")
         XCTAssertEqual(company?.stations.first?.id, "d5e4ca701943a5986142419c92f2ba68")
         XCTAssertEqual(company?.stations.first?.latitude, 49.452632522439)

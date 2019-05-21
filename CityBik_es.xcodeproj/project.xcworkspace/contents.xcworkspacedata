@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CityBIk.es.xcodeproj">
+      location = "self:/Users/matteo/Documents/repository_git/github/CityBIk_es-iOS/CityBik_es.xcodeproj">
    </FileRef>
 </Workspace>
